@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.guyuga.guyrobot.ViewModel.RobotViewModel" />
+    </data>
+
+    <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/cardview_default_radius"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/card_robot_image"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_launcher"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:imageUrl="@{viewModel.imageUrl}"/>
+
+            <TextView
+                android:id="@+id/card_robot_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/card_robot_image"
+                android:text="@{viewModel.robotName}"
+                style="@style/TextTitleStyle"/>
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:stretchColumns="1"
+                android:id="@+id/card_robot_characteristics"
+                android:layout_below="@id/card_robot_name"
+                android:layout_toEndOf="@id/card_robot_image"
+                android:layout_marginEnd="10dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{viewModel.strengthTitle}"
+                        />
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center_vertical"
+                        style="@style/RobotCharBarStyle"
+                        android:progress="@{viewModel.strengthProgress}"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{String.valueOf(viewModel.strength)}"/>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{viewModel.durabilityTitle}"/>
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center_vertical"
+                        style="@style/RobotCharBarStyle"
+                        android:progress="@{viewModel.durabilityProgress}"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{String.valueOf(viewModel.durability)}"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{viewModel.maneuverabilityTitle}"/>
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center_vertical"
+                        style="@style/RobotCharBarStyle"
+                        android:progress="@{viewModel.maneuverabilityProgress}"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{String.valueOf(viewModel.maneuverability)}"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{viewModel.weaponSlotsTitle}"/>
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center_vertical"
+                        style="@style/RobotCharBarStyle"
+                        android:progress="@{viewModel.weapon_slotsProgress}"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{String.valueOf(viewModel.weapon_slots)}"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{viewModel.customisationTitle}"/>
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center_vertical"
+                        style="@style/RobotCharBarStyle"
+                        android:progress="@{viewModel.customisationProgress}"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{String.valueOf(viewModel.customisation)}"/>
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/card_robot_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_below="@id/card_robot_image"
+                android:layout_margin="10dp"
+                android:text="@{viewModel.robotDescription}"
+                style="@style/TextBodyStyle"/>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</layout>

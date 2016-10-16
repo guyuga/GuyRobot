@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">GuyRobot</string>
+
+    <!--Robot description taken from http://warrobots.wikia.com/wiki/-->
+    <string name="DestrierDescription">The Destrier is a fast Light Robot with 2 light Hardpoints and is the robot that all players start the game with. The Destrier starts with 35k hp and a speed of 45mph, making it a good early choice for capturing beacons. However, it is recommended new players buy the Gl. Patton or the Vityaz instead of 2, as the extra firepower is a necessity for a successful player.</string>
+    <string name="GepardDescription">The Gepard is one of the best robots for hit and run tactics, with amazing speed and good firepower. Equipping three SURA-F Pinata or GAU Punisher will make this robot excel in close range battles, which makes for a powerful combination, as this mech is already good at beacon capturing. This robot can sometimes be seen with three or two EP Magnums and can rip through light and medium robots with relative ease.</string>
+    <string name="CossackDescription">The Cossack is a Light Robot with 1 medium hardpoint and the jump ability. Having the second fastest base speed in the game, it can dodge long range sniper fire and weave in and out to capture beacons with ease.</string>
+    <string name="StalkerDescription">The Stalker is a light robot with 2 light hardpoints and the Stealth ability. The Stalker is unlocked when a player reaches level 20. It can be purchased for 7,500 Workshop Points.</string>
+    <string name="RogatkaDescription">The Rogatka is a Medium Robot with 2 Medium Hardpoints and the Jump ability. With the ability to mount two medium weapons, it has similar firepower to the Gl. Patton. However, it is faster, more durable, and jump-capable, making it one of the most powerful and versatile robots in the game.</string>
+    <string name="VityazDescription">The Vityaz is a Medium Robot with 1 Heavy and 2 Light hardpoints. A highly versatile and balanced robot, the Vityaz is suitable for both beginner and intermediate players and capable of being equipped to function well at any range.</string>
+    <string name="BoaDescription">The Boa is a Medium Robot with 1 Heavy and 1 Medium hardpoint. The Boa is often described as a mobile weapons platform. It also has extremely steong armor and good speed, making it a strong, durable robot. Currently, the Boa, Carnage, and Fujin are the only medium weight robots that can be utilized successfully in top tier games. However, the new speed buff given to the Leo has made some competition for this fan favorite robot, and the arrival of the new Lancelot may finally outclass the Boa.</string>
+    <string name="GalahadDescription">The Galahad is a Medium Robot with 2 light hardpoints and 1 medium hardpoint all on the right side. This robot has a built-in physical shield which is placed on the robot\'s side. Galahad\'s special ability lets it switch shield mode, moving it from the side to the front, just like a medieval knight. When the shield is in front, the robot\'s movement speed is decreased by twenty percent (20 &#37;).</string>
+    <string name="FuryDescription">The Fury is a Heavy Robot with 3 Heavy hardpoints. It costs 5,000 gold, making it tied with the Lancelot for most expensive robot in the game. As such, it is not typically seen outside of high tiers. The Fury excels at long range combat. With three fully upgraded ETC Kang-Dae cannons, it can easily cripple smaller robots and deal massive damage to other heavies in a single salvo. Players facing a Fury should take advantage of cover and close to weapons range as fast as possible.</string>
+    <string name="GriffinDescription">The Griffin is a Heavy Robot with 2 medium and 2 light hardpoints, one of the most recognizable robots in the game, and has a cockpit that looks like a plane\'s nose. Alongside the Cossack and Rogatka, the Griffin is one of the few robots that can jump. Although physically larger, it can jump higher and farther than the Cossack, but at the cost of a 25 second cool down timer.</string>
+    <string name="NatashaDescription">The Natasha is a Heavy Robot with 2 Heavy and 2 Light hardpoints. It\'s base speed of 25 mph at level 6, makes it the slowest robot in the game. Only the Rhino is slower at base speed, however the Rhino has the advantage of Assult mode so for all practical purposes it is faster. </string>
+    <string name="LancelotDescription">Lancelot is a heavy bot released alongside Gareth and Galahad. It features a fixed frontal shield as well as a Rush Mode. Lancelot comes equipped with many special abilities, which makes it an extremely powerful robot in battle. Its Rush Mode can be activated to quickly close in on opponents or for retreat, and its fixed physical shield can block most projectiles. Similar to a Raijin, a Lancelot\'s shield is actually composed of three separate pieces which can each be blown off separately, which makes it extremely vulnerable to splash, as a single rocket could potentially deal 4 times as much damage as it normally would, damaging the robot, and each of its three shield pieces.</string>
+
+    <!--Robot images taken from http://warrobots.wikia.com/wiki/-->
+    <string name="DestrierImageUrl">http://vignette1.wikia.nocookie.net/walking-war-robots/images/4/48/Destrier.jpg/revision/latest/scale-to-width-down/270?cb=20141107145020</string>
+    <string name="GepardImageUrl">http://vignette1.wikia.nocookie.net/walking-war-robots/images/a/a5/GepardRedesign.jpeg/revision/latest/scale-to-width-down/270?cb=20160519100021</string>
+    <string name="CossackImageUrl">http://vignette2.wikia.nocookie.net/walking-war-robots/images/e/e6/Cossack.jpg/revision/latest/scale-to-width-down/270?cb=20150130012206</string>
+    <string name="StalkerImageUrl">http://vignette1.wikia.nocookie.net/walking-war-robots/images/1/12/StalkerDualMagnum.png/revision/latest/scale-to-width-down/270?cb=20160112001320</string>
+    <string name="RogatkaImageUrl">http://vignette2.wikia.nocookie.net/walking-war-robots/images/0/0d/Taranosauraus.jpg/revision/latest/scale-to-width-down/270?cb=20151226185615</string>
+    <string name="VityazImageUrl">http://vignette2.wikia.nocookie.net/walking-war-robots/images/f/f6/Vityaz-sq-420.png/revision/latest/scale-to-width-down/270?cb=20160106005251</string>
+    <string name="BoaImageUrl">http://vignette2.wikia.nocookie.net/walking-war-robots/images/c/c8/Boa.jpg/revision/latest/scale-to-width-down/270?cb=20150130004735</string>
+    <string name="GalahadImageUrl">http://vignette1.wikia.nocookie.net/walking-war-robots/images/f/fa/Galahad_WWR.PNG/revision/latest/scale-to-width-down/270?cb=20160629170947</string>
+    <string name="FuryImageUrl">http://vignette2.wikia.nocookie.net/walking-war-robots/images/4/4c/Fury.jpg/revision/latest/scale-to-width-down/270?cb=20150130004815</string>
+    <string name="GriffinImageUrl">http://vignette1.wikia.nocookie.net/walking-war-robots/images/f/f1/Griffin.jpg/revision/latest/scale-to-width-down/270?cb=20160806023812</string>
+    <string name="NatashaImageUrl">http://vignette2.wikia.nocookie.net/walking-war-robots/images/1/16/Natasha.jpg/revision/latest/scale-to-width-down/270?cb=20150130004851</string>
+    <string name="LancelotImageUrl">http://vignette4.wikia.nocookie.net/walking-war-robots/images/5/5b/Lancelot_WWR.PNG/revision/latest/scale-to-width-down/270?cb=20160629170333</string>
+
+    <!--Robot Characteristics-->
+    <string name="strength">Strength</string>
+    <string name="durability">Durability</string>
+    <string name="maneuverability">Maneuverability</string>
+    <string name="weapon_slots">Weapon Slots</string>
+    <string name="customisation">Customisation</string>
+
+</resources>
